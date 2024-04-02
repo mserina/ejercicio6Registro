@@ -14,7 +14,7 @@ namespace ejercicio6Ficheros.controladores
 
             string rutaArchivo = "C:\\Users\\csi23-mserina\\Desktop\\REGISTRO_VC.txt";
             
-            //ERROR 1:C --> NO COGE LA LINEA NUEVA POR LA QUE LA QUIERO CAMBIAR
+            
             string[] lineas = File.ReadAllLines(rutaArchivo);
 
             MenuInterfaz mi = new MenuImplementacion();
